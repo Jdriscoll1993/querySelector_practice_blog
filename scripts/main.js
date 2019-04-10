@@ -8,7 +8,7 @@ for (let i = 0; i < header.length; i++){
 }
 
 const dashed = document.querySelector(".dashed");
-dashed.remove();
+dashed.classList.remove("dashed");
 
 // document.querySelector(".dashed").remove(); === alternative to above code without declaring a const variable.
 
