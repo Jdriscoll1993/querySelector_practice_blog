@@ -7,6 +7,14 @@ for (let i = 0; i < header.length; i++){
     header[i].classList.add("important");
 }
 
+/* for each loop option instead of above code: 
+
+elements.forEach(header => {
+    header.classList.add("forEach");
+})
+
+*/
+
 const dashed = document.querySelector(".dashed");
 dashed.classList.remove("dashed");
 
